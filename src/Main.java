@@ -7,7 +7,7 @@ public class Main {
     static boolean onlyFrom0to10=true;  //нстройка ограничения вводимого числа только от 0 до 10(по усл. задачи)
     static boolean only2digit=true;  //нстройка ограничения кол-ва вводимых чисел только 2-мя (по усл. задачи)
 
-    enum RomArab { Arab(),Rom(),NoElse(),Err(); //флаг сост. и типа вычислений: арабскими/ римскими /ни то ни се(ошибка)
+    enum RomArab { Arab(),Rom(),NoElse(),Err();
 
         RomArab() {
         }
